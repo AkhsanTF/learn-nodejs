@@ -1,0 +1,17 @@
+{
+  "name": "8.-npm",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Zakt",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "validator": "^13.15.15"
+  }
+}

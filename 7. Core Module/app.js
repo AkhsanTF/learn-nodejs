@@ -47,7 +47,7 @@ rl.question("What is ur name?", (name) => {
     contacts.push(contact);
 
     fs.writeFileSync("contacts.json", JSON.stringify(contacts, null, 2));
-    console.log("ur file have been writed in contacts.json");
+    console.log("ur file have been written in contacts.json");
     rl.close();
   });
 });
