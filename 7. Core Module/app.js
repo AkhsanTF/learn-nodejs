@@ -1,7 +1,6 @@
 // Core Module
 // File System
 const fs = require("fs");
-const Module = require("module");
 
 //Read Line
 const readline = require("readline");
