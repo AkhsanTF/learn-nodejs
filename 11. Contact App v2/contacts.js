@@ -5,9 +5,10 @@ const validator = require("validator");
 const errChalk = chalk.red.inverse.bold;
 const sucChalk = chalk.green.inverse.bold;
 const contactPath = "./data/contacts.json";
+const dirPath = "./data";
 
-if (!fs.existsSync("./data")) {
-  fs.mkdirSync("./data");
+if (!fs.existsSync(dirPath)) {
+  fs.mkdirSync(dirPath);
 }
 if (!fs.existsSync(contactPath)) {
   fs.writeFileSync(contactPath, "[]", "utf8");
